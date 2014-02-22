@@ -1,18 +1,39 @@
 {
-  "name": "StreamFuz",
+  "name": "streamfuz",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
-    "async": "0.2.x",    
+    "async": "0.2.x",
     "underscore": "1.5.x",
     "mocha": "1.17.x",
     "should": "2.1.x",
-    "seedrandom": "2.3.x"   
+    "seedrandom": "2.3.x"
   },
   "scripts": {
     "test": "make test"
   },
   "devDependencies": {
     "should": "2.1.x"
+  },
+  "description": "streamfuz =========",
+  "main": "StreamFuz.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/astalwick/streamfuz.git"
+  },
+  "keywords": [
+    "multiple",
+    "stream",
+    "merge",
+    "combine",
+    "join"
+  ],
+  "author": "Arlen Stalwick <arlen@nsono.net> (http://www.nsono.net/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/astalwick/streamfuz/issues"
   }
 }
