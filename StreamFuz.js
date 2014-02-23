@@ -8,7 +8,7 @@ var StreamFuz = module.exports = function (options) {
   var self = this;
   this.parallel       = options && options.parallel ? options.parallel : 1;
   this.bufferSize     = options && options.bufferSize ? options.bufferSize : 16384;
-  this.streams        = [];
+  this.streams        = options && options.streams ? options.streams : [];
   this.inProgress     = [];
   this.started        = false;
   this.hash           = crypto.createHash('md5');
